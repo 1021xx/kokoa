@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./css/friends.css" />
   <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/user-component.css" />
+  <!-- <link rel="stylesheet" href="./css/style.css" /> -->
 </head>
 
 <body>
@@ -47,27 +48,51 @@
   </header>
 
   <!-- SECTION -->
+  <!-- user-component.css -->
   <section>
     <ul class="friends-display-link">
       <li><a href="#"><span class="material-symbols-outlined">info</span></a></li>
       <li><a href="#">Friends' Names Display</a></li>
       <li><a href="#"><span class="material-symbols-outlined">chevron_right</span></a></li>
     </ul>
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar user-component__avatar--xl"
+            src="https://tvline.com/wp-content/uploads/2022/09/wednesday-release-date-netflix.jpg?w=620"
+            alt="Wednesday-Addams">
+          <div class="user-component__text">
+            <h4 class="user-component__title">Wednesday Addams</h4>
+            <!-- <h6 class="user-component__subtitle">this is ...</h6> -->
+          </div>
+        </div>
 
-    <div class="user-component">
-      <div class="user-component__column">
-        <img class="user-component__avatar"
-          src="https://tvline.com/wp-content/uploads/2022/09/wednesday-release-date-netflix.jpg?w=620"
-          alt="wednesday addams">
-        <div class="user-component__text">
-          <h4 class="user-component__title">1021xx</h4>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Family</span>
+          <span class="material-symbols-outlined">expand_less</span>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar user-component__avatar--sm"
+              src="https://pbs.twimg.com/profile_images/1529535527585583104/Y7wqhrcM_400x400.png"
+              alt="Wednesday-Addams">
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Addams</h4>
+            </div>
+          </div>
+
+          <div class="user-component__column">
+            <span>7</span>
+            <span class="material-symbols-outlined">chevron_right</span>
+          </div>
         </div>
       </div>
-      <div class="user-component__column">
 
-      </div>
-    </div>
-
+    </main>
   </section>
 
 
@@ -77,16 +102,17 @@
   <nav class="nav">
     <ul class="nav__list">
       <li class="nav__btn">
-        <a class="nav__link" href="friends.html"><span class="material-symbols-outlined">person</span></a>
+        <a class="nav__link" href="friends.html"><span
+            class="material-symbols-outlined material-symbols-outlined__fill">person</span></a>
       </li>
       <li class="nav__btn">
-        <a class="nav__link" href="#"><span class="material-symbols-outlined">chat_bubble</span></a>
+        <a class="nav__link" href="chats.html"><span class="material-symbols-outlined">chat_bubble</span></a>
       </li>
       <li class="nav__btn">
-        <a class="nav__link" href="#"><span class="material-symbols-outlined">search</span></a>
+        <a class="nav__link" href="find.html"><span class="material-symbols-outlined">pageview</span></a>
       </li>
       <li class="nav__btn">
-        <a class="nav__link" href="#"><span class="material-symbols-outlined">more_horiz</span></a>
+        <a class="nav__link" href="more.html"><span class="material-symbols-outlined">more</span></a>
       </li>
     </ul>
 
