@@ -11,6 +11,16 @@ body {
   font-family: "Open Sans", "Noto Sans KR", sans-serif;
 }
 
+#chat-screen {
+  background-color: #abc1d1;
+  height: 1000vh;
+}
+#chat-screen .alt-header, .status-bar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
 
 .status-bar {
   display: flex;
@@ -52,7 +62,12 @@ body {
 }
 
 
-#chat-screen {
-  background-color: #abc1d1;
+/* header */
+.alt-header {
+  padding-top: 20px;
 }
+.alt-header__column:last-child span {
+  padding-left: 10px;
+}
+
 

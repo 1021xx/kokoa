@@ -6,6 +6,9 @@
   padding: 20px;
   margin-bottom: 15px;
 }
+.alt-header__column {
+  width: 33.33%;
+}
 .alt-header__title {
   font-size: 26px;
   font-weight: 600;
@@ -13,7 +16,11 @@
 }
 .alt-header__column:first-child {
   margin-right: auto;
+  display: flex;
+  /* justify-content: flex-start; */
 }
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
