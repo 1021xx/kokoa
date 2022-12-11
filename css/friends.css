@@ -44,8 +44,8 @@ body {
 }
 .status-bar__column:last-child span:nth-child(3) {
   position: absolute;
-  top: 4.5px;
-  right: 9px;
+  top: 6px;
+  right: 8px;
   color: #fff;
   font-size: 10px;
 }
@@ -65,7 +65,7 @@ body {
 .screen-header__icons .material-symbols-outlined {
   font-size: 30px;
 }
-.screen-header__icons a:last-child span {
+/* .screen-header__icons a:last-child span {
   animation: rotateCog 2s linear infinite;
 }
 @keyframes rotateCog {
@@ -79,7 +79,7 @@ body {
 .screen-header__icons a {
   align-items: center;
   padding: 10px;
-}
+} */
 
 
 /* SECTION */
@@ -144,7 +144,7 @@ body {
   position: relative;
 }
 .nav__btn:nth-child(2) .nav__link::after {
-  content: "7";
+  content: "3";
   background-color: tomato;
   position: absolute;
   top: 9px;
