@@ -224,6 +224,8 @@ input:focus {
   /* input up */
   width: 95vw;
   transform: translateX(-13%) translateY(-80px);
+  border: 1px solid purple;
+  color: peru;
 }
 
 
