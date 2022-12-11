@@ -12,20 +12,18 @@ body {
 }
 
 #chat-screen {
-  background-color: #abc1d1;
-  height: 110vh;
+  background-image: url(https://images.theconversation.com/files/237977/original/file-20180925-149955-r3w501.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip);
+  height: 100vh;
   
 }
-.alt-header, .status-bar {
+/* .alt-header, .status-bar {
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-}
-
-#chat-screen .alt-header {
-  top: 10px;
-  position: relative;
-}
+} */
+/* #chat-screen .header {
+  position: fixed;
+} */
 
 .status-bar {
   display: flex;
@@ -57,7 +55,7 @@ body {
 }
 .status-bar__column:last-child span:nth-child(3) {
   position: absolute;
-  top: 4.5px;
+  top: 6px;
   right: 10px;
   color: #fff;
   font-size: 10px;
@@ -76,7 +74,7 @@ body {
 }
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
   border-radius: 25px;
   font-size: 14px;

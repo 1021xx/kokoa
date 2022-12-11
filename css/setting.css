@@ -42,7 +42,7 @@ body {
 }
 .status-bar__column:last-child span:nth-child(3) {
   position: absolute;
-  top: 4.5px;
+  top: 6px;
   right: 10px;
   color: #fff;
   font-size: 10px;

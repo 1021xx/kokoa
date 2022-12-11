@@ -42,7 +42,7 @@ body {
 }
 .status-bar__column:last-child span:nth-child(3) {
   position: absolute;
-  top: 4.5px;
+  top: 6px;
   right: 10px;
   color: #fff;
   font-size: 10px;
@@ -67,6 +67,17 @@ body {
   align-items: center;
   padding: 10px;
 }
+.screen-header__icons a:last-child span {
+  animation: rotateCog 2s linear infinite;
+}
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
 
 
 /* SECTION */
@@ -89,7 +100,7 @@ body {
   text-align: center;
   position: absolute;
   top: 0;
-  right: 28px;
+  right: -20px;
 }
 
 .find-icons {
@@ -132,7 +143,7 @@ body {
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: #fae100;
+  background-color: pink;
   border-radius: 10px;
   display: flex;
   justify-content: center;
