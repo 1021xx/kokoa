@@ -48,6 +48,8 @@ body {
   right: 8px;
   color: #fff;
   font-size: 10px;
+
+  
 }
 .status-bar__column:last-child span:last-child {
   font-size: 35px;
