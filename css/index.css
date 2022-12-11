@@ -72,10 +72,10 @@
 }
 #login-form input:focus {
   /* 이 css가 왜 input:not 위로 올라가면 속성이 안됨? */
-  border-color: var(--yellow);
+  border-color: #fae100;
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: #fae100;
   cursor: pointer;
   border-radius: 5px;
   color: #333;
@@ -94,4 +94,24 @@
 }
 #login-form a:hover {
   text-decoration: underline;
+}
+
+
+
+#no-mobile {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fae100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+@media screen and(max-width:645px) {
+  #no-mobile {
+    display: none;
+  }
 }

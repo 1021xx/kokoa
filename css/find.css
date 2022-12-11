@@ -97,7 +97,7 @@ body {
   font-size: 14px;
 }
 .recommended-friends span {
-  margin: 100px 0;
+  margin: 50px 0;
   display: block;
   text-align: center;
 }
@@ -173,6 +173,25 @@ body {
   right: 10px;
   font-size: 12px;
 }
+.open-post__heart-count span:first-child {
+  will-change: transform;
+  /* 브라우저한테 흔들리지말라고 명령해주는거? */
+  animation: heartBeat 1s linear infinite;
+}
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
 .open-post__heart-count > .material-symbols-outlined {
   font-size: 12px;
 }
@@ -222,3 +241,22 @@ body {
   border-radius: 50%;
 }
 
+
+
+#no-mobile {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fae100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+@media screen and(max-width:645px) {
+  #no-mobile {
+    display: none;
+  }
+}
