@@ -1,3 +1,3 @@
 # Kokoa Clon 2022 Update
 
-HTML & CSS are so much fun!
+Clone KakaoTalk using HTML and CSS.
